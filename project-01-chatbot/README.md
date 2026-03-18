@@ -22,7 +22,6 @@ Key features:
 
 ---
 
-
 ## 🧱 Project Structure
 
 Below is the structure of this project:
@@ -35,6 +34,7 @@ project-01-chatbot/
 ├── requirements.txt     # Python dependencies
 ├── Dockerfile           # Container build instructions
 ├── docker-compose.yml   # Easy one-command startup
+├── screenshot.png       # Speaks for it self 
 ├── .env.example         # Example environment variables
 └── README.md            # This file
 ```
@@ -47,19 +47,6 @@ You can run this project **locally** or using **Docker**.
 Both methods are supported and documented below.
 
 ---
-
-
-## ⚠️ Python Version Notice
-
-This project currently requires **Python 3.11 or 3.12** when running locally.
-
-Python **3.13 is not supported** because several standard library modules (including `audioop`) were removed.  
-Gradio and Pydub still depend on these modules, which causes import errors when using Python 3.13.
-
-If you want to run the project locally, please use:
-
-- **Python 3.11** (recommended)  
-- **Python 3.12**
 
 Docker users do not need to worry about this — the included Dockerfile uses Python 3.11 and works out of the box.
 
