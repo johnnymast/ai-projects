@@ -24,6 +24,7 @@ Key features:
 
 Below is the structure of this project:
 
+\`\`\`
 project-01-chatbot/
 │
 ├── app.py               # Gradio UI and chat loop
@@ -32,7 +33,10 @@ project-01-chatbot/
 ├── Dockerfile           # Container build instructions
 ├── docker-compose.yml   # Easy one-command startup
 ├── .env.example         # Example environment variables
-└── README.md            # This file---
+└── README.md            # This file
+\`\`\`
+
+---
 
 ## ⚙️ Installation & Usage
 
@@ -45,27 +49,27 @@ Both methods are supported and documented below.
 
 1. Copy the example environment file:
 
-\`\`\`
+```
 cp .env.example .env
-\`\`\`
+```
 
 2. Add your API key to `.env`:
 
-\`\`\`
+```
 OPENAI_API_KEY=your_key_here
-\`\`\`
+```
 
 3. Start the project:
 
-\`\`\`
+```
 docker compose up
-\`\`\`
+```
 
 4. Open the chatbot in your browser:
 
-\`\`\`
+```
 http://localhost:7860
-\`\`\`
+```
 
 ---
 
@@ -73,37 +77,37 @@ http://localhost:7860
 
 1. Create a virtual environment (optional but recommended):
 
-\`\`\`
+```
 python3 -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 2. Install dependencies:
 
-\`\`\`
+```
 pip install -r requirements.txt
-\`\`\`
+```
+
 
 3. Copy the environment file:
 
-\`\`\`
+```
 cp .env.example .env
-\`\`\`
+```
 
 4. Add your API key to `.env`.
 
 5. Start the app:
 
-\`\`\`
+```
 python app.py
-\`\`\`
+```
 
 The chatbot will be available at:
 
-\`\`\`
+```
 http://localhost:7860
-\`\`\`
-
+````
 ---
 
 ## 🧠 Configuration
@@ -112,10 +116,10 @@ All configuration is handled through environment variables.
 
 Example:
 
-\`\`\`
+````
 OPENAI_API_KEY=your_key_here
 MODEL=gpt-4o
-\`\`\`
+```
 
 You can extend this with:
 
