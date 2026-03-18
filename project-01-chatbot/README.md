@@ -22,6 +22,36 @@ Key features:
 
 ---
 
+
+
+Dit project ondersteunt maximaal Python 3.12.
+De eenvoudigste manier om een geïsoleerde omgeving te maken is via Miniconda.
+1. Installeer Miniconda
+
+Download Miniconda hier:
+https://docs.conda.io/en/latest/miniconda.html (docs.conda.io in Bing)
+
+Kies de installer voor jouw besturingssysteem.
+2. Maak een nieuwe omgeving met Python 3.12
+bash
+
+conda create -n ai-chatbot python=3.12
+
+3. Activeer de omgeving
+```bash
+conda activate ai-chatbot
+```
+
+4. Installeer de project‑dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Daarna kun je de applicatie starten met:
+```bash
+python app.py
+```
+
 ## 🧱 Project Structure
 
 Below is the structure of this project:
