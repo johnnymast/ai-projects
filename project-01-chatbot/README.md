@@ -3,7 +3,9 @@
 A simple but extensible AI‑powered chatbot built with Python and Gradio.  
 This project demonstrates how to build a clean conversational interface, integrate with modern LLM providers, and package everything in a professional, Docker‑ready structure.
 
----
+<img alt="The project in action" src="screenshot.png" />
+
+--
 
 ## 🧩 Overview
 
@@ -19,6 +21,7 @@ Key features:
 - Simple configuration via `.env`  
 
 ---
+
 
 ## 🧱 Project Structure
 
@@ -44,6 +47,21 @@ You can run this project **locally** or using **Docker**.
 Both methods are supported and documented below.
 
 ---
+
+
+## ⚠️ Python Version Notice
+
+This project currently requires **Python 3.11 or 3.12** when running locally.
+
+Python **3.13 is not supported** because several standard library modules (including `audioop`) were removed.  
+Gradio and Pydub still depend on these modules, which causes import errors when using Python 3.13.
+
+If you want to run the project locally, please use:
+
+- **Python 3.11** (recommended)  
+- **Python 3.12**
+
+Docker users do not need to worry about this — the included Dockerfile uses Python 3.11 and works out of the box.
 
 ## ▶️ Running with Docker (recommended)
 
