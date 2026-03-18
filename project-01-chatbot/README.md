@@ -22,7 +22,7 @@ Key features:
 
 ---
 
-
+## ⚠️ Python Version Support
 
 Dit project ondersteunt maximaal Python 3.12.
 De eenvoudigste manier om een geïsoleerde omgeving te maken is via Miniconda.
