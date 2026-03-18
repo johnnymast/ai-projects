@@ -24,7 +24,6 @@ Key features:
 
 Below is the structure of this project:
 
-\`\`\`
 project-01-chatbot/
 │
 ├── app.py               # Gradio UI and chat loop
@@ -33,10 +32,7 @@ project-01-chatbot/
 ├── Dockerfile           # Container build instructions
 ├── docker-compose.yml   # Easy one-command startup
 ├── .env.example         # Example environment variables
-└── README.md            # This file
-\`\`\`
-
----
+└── README.md            # This file---
 
 ## ⚙️ Installation & Usage
 
